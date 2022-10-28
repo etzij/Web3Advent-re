@@ -15,9 +15,9 @@ const Home: NextPage = () => {
       </Head>
 
 
-        <div className = "flex flex-wrap bg-[url('../img/calendar_backdrop.jpg')] h-screen w-screen">
+        <div className = "flex flex-wrap bg-[url('../img/calendar_backdrop.jpg')] h-full w-screen justify-evenly">
 
-        <Doors className = "h-"/>
+        <Doors/>
         </div>
         <Particle/>
 

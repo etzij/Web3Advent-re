@@ -66,7 +66,7 @@ const Doors = (): JSX.Element  =>{
                 >
 
                 </Image>
-                <div className = "absolute translate-y-5 text-white text-center hover:bg-[url('../img/hatch_backdrop.jpg')] h-56 w-56 opacity-0 hover:opacity-100 duration-300 flex items-center justify-center" onClick={changeToMintingPage}>
+                <div className = "absolute translate-y-5 text-white text-center hover:bg-[url('../img/hatch_backdrop.jpg')] h-56 w-56 opacity-0 hover:opacity-100 duration-300 flex items-center justify-between" onClick={changeToMintingPage}>
                     {item.text}</div>
 
 

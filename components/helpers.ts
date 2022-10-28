@@ -40,6 +40,8 @@ export type HatchType = {
 };
 
 // Bad one-liners from https://onelinefun.com/christmas
+// @ts-ignore
+// @ts-ignore
 export const hatchArray: HatchType[] = [
   {
     nr: 1,
